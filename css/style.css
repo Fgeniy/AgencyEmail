@@ -1,0 +1,483 @@
+/* line 32, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+  margin: 0;
+  padding: 0; }
+
+/* line 48, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+/* line 54, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+body {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0; }
+
+/* line 60, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+section {
+  margin-bottom: 3.13em; }
+
+/* line 64, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  color: #434343; }
+
+/* line 74, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+a[href]:not([class]) {
+  text-decoration: none;
+  transition: all ease-in-out .3s;
+  color: #000; }
+  /* line 78, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  a[href]:not([class]):hover {
+    color: #7dc93f; }
+
+/* line 83, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+button {
+  display: block;
+  background-color: #7dc93f;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 1.88em auto;
+  border: none;
+  border-radius: 1.88em;
+  padding: 1em 2em;
+  cursor: pointer; }
+  /* line 23, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  button:hover {
+    background: #7dff12; }
+
+/* line 87, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.firm_hihglight {
+  color: #7dc93f; }
+
+/* line 91, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.menu {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  background: #fff; }
+  /* line 96, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  .menu li {
+    float: left;
+    list-style: none; }
+  /* line 100, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  .menu a {
+    display: block;
+    margin-left: 1.56em;
+    font-weight: 500; }
+
+/* line 107, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.container {
+  width: 50em;
+  padding: 0 12.5em;
+  margin: 0 auto;
+  position: relative;
+  background: transparent; }
+
+/* line 115, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.container__nav {
+  display: flex;
+  justify-content: flex-end; }
+
+/* line 120, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.logo {
+  margin: auto;
+  display: inline-block;
+  width: 20%;
+  font-weight: bold; }
+
+/*--------BANNER------*/
+/* line 130, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+#banner {
+  background: #32333d;
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 388px;
+  color: #fff;
+  text-align: center;
+  position: relative; }
+
+/* line 142, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.slogan {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 500;
+  margin-top: 95px; }
+
+/* line 150, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.container__banner {
+  position: absolute;
+  left: 25%;
+  transform: translate(-50% 0);
+  width: 500px; }
+  /* line 156, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  .container__banner h1 {
+    font-size: 2.25em;
+    font-weight: bold;
+    color: #fff; }
+  /* line 161, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  .container__banner p.author {
+    font-size: 0.75em;
+    letter-spacing: 1em;
+    font-weight: 300;
+    text-transform: uppercase; }
+
+/*ACTIVITY*/
+/* line 172, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+#activity {
+  padding: 3.13em 0; }
+
+/* line 176, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.container__activity {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-content: space-between; }
+
+/* line 185, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.act_item {
+  text-align: center;
+  flex: 1 0 33%;
+  padding: 1em; }
+  /* line 189, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  .act_item .fa {
+    display: inline-block;
+    font-size: 5em;
+    vertical-align: center;
+    color: #7dc93f;
+    background: #f2f2f2;
+    border-radius: 50%;
+    padding: .3em; }
+    /* line 197, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+    .act_item .fa:hover {
+      color: #fff;
+      background: #7dc93f; }
+  /* line 202, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  .act_item p {
+    color: #999; }
+  /* line 205, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  .act_item h3 {
+    font-size: 1.13em;
+    color: #434343; }
+    /* line 208, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+    .act_item h3:hover {
+      color: #7dc93f; }
+
+/*-----PORTFOLIO----*/
+/* line 217, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+#portfolio {
+  border-top: 1px solid #f2f2f2;
+  padding-top: 3.5em;
+  text-align: center; }
+  /* line 222, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  #portfolio h1 {
+    font-size: 1.88em;
+    text-transform: uppercase; }
+  /* line 225, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  #portfolio h2 {
+    font-size: .88em;
+    color: #999;
+    letter-spacing: .5em; }
+  /* line 228, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  #portfolio p {
+    color: #434343;
+    font-size: 0.88em;
+    margin: 1.25em 0 3.13em 0; }
+
+/* line 235, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.team {
+  display: flex; }
+
+/* line 239, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.team__member {
+  position: relative;
+  flex: 1;
+  flex-basis: 31%;
+  align-items: center; }
+  /* line 244, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  .team__member h3 {
+    margin: 1.25em 0 0.63em 0; }
+  /* line 247, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  .team__member h4 {
+    margin: 0; }
+  /* line 250, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  .team__member img {
+    margin-left: 30px;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out; }
+    /* line 254, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+    .team__member img:hover {
+      margin-left: 0;
+      filter: sepia(40%);
+      cursor: pointer; }
+
+/* line 262, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.team__external-link {
+  position: absolute;
+  top: 0;
+  left: 3em;
+  font-size: 1.5em;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s; }
+  /* line 274, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  .team__external-link:hover {
+    opacity: 1;
+    display: block; }
+
+/*------VIDEO---------*/
+/* line 283, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+#video {
+  background-image: url(../img/banner_2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 243px;
+  position: relative; }
+  /* line 289, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  #video .video__header {
+    position: absolute;
+    margin: 90px 33%;
+    text-align: center; }
+  /* line 295, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  #video h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300; }
+  /* line 300, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  #video i.fa {
+    font-size: 4em;
+    color: #7dc93f; }
+
+/*----------SKILLS-------*/
+/* line 311, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.container__skills {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; }
+
+/* line 321, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.skills__block_1 {
+  flex-basis: 48%;
+  padding-bottom: 0; }
+  /* line 324, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  .skills__block_1 h1 {
+    font-size: 2.5em;
+    margin-bottom: 0; }
+  /* line 328, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  .skills__block_1 h2 {
+    font-size: .88em;
+    color: #999;
+    letter-spacing: .5em; }
+  /* line 331, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  .skills__block_1 p {
+    padding: 3.13em 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    word-wrap: break-word;
+    margin: 0; }
+  /* line 338, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  .skills__block_1 button {
+    margin-left: 0; }
+
+/* line 343, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.skill {
+  position: relative;
+  border-bottom: 4px solid #7dc93f; }
+
+/* line 348, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.sc_1 {
+  width: 95%; }
+
+/* line 352, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.sc_3 {
+  width: 50%; }
+
+/* line 356, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.sc_4 {
+  width: 80%; }
+
+/* line 360, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.skill__bottom_border {
+  width: 100%;
+  padding-bottom: 0.13em;
+  border-bottom: 1px solid #dadada; }
+
+/* line 366, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.scale {
+  position: absolute;
+  bottom: -90%;
+  right: 0;
+  align-items: flex-end; }
+  /* line 371, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  .scale P {
+    color: #999;
+    font-weight: bold; }
+
+/* line 377, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.skills__block_2 {
+  flex-basis: 35%;
+  align-items: stretch;
+  padding: 1.88em 2.5em;
+  background: #f9f9f9;
+  text-align: center;
+  box-shadow: 2px 2px 4px 0 #909090; }
+  /* line 384, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  .skills__block_2 h3 {
+    font-weight: 700;
+    text-align: center; }
+
+/*------PROJCTS-------*/
+/* line 393, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+#project {
+  position: relative;
+  background-image: url(../img/banner_2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 243px; }
+
+/* line 401, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.container__projects {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around; }
+
+/* line 412, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.projects_count {
+  flex: 1;
+  flex-basis: 30%;
+  align-items: center;
+  align-content: center;
+  text-align: center; }
+  /* line 418, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  .projects_count .projects_count__border {
+    border-right: 1px solid rgba(255, 255, 255, 0.35);
+    height: 75%; }
+  /* line 422, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  .projects_count h1 {
+    font-size: 3.75em;
+    color: #7dc93f;
+    margin-bottom: 0;
+    border-bottom: 1px solid #7dc93f;
+    width: 20px;
+    text-align: center; }
+  /* line 432, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  .projects_count p {
+    font-size: 0.94em;
+    text-transform: uppercase;
+    color: #fff; }
+
+/*-------PORTFOLIO ITEMS-----*/
+/* line 439, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.container__port_items {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #eee; }
+
+/* line 452, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.portfolio__items img {
+  flex-basis: 45%;
+  margin: 30px; }
+
+/*-------------PRICING PLAN---------------*/
+/* line 458, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+#price_plan {
+  text-align: center; }
+  /* line 460, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  #price_plan h1 {
+    font-size: 1.88em;
+    text-transform: uppercase; }
+  /* line 461, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  #price_plan h2 {
+    font-size: .88em;
+    color: #999;
+    letter-spacing: .5em; }
+  /* line 462, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  #price_plan h3 {
+    margin-top: 4em; }
+
+/* line 464, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.container__plan {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between; }
+
+/* line 472, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.plan {
+  background-color: #f9f9f9;
+  margin-top: 4.69em;
+  flex: 0 4 30%;
+  position: relative; }
+  /* line 478, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  .plan ul {
+    text-align: center;
+    list-style: none;
+    color: #999; }
+  /* line 483, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+  .plan li {
+    padding: 1.56em 0;
+    border-top: 1px solid #e1e1e1; }
+
+/* line 488, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.price {
+  width: 60%;
+  margin: 0 auto 2.5em auto;
+  background-color: #7dc93f;
+  padding: 1.2em 0;
+  border-radius: 50%;
+  position: absolute;
+  top: -10%;
+  left: 20%;
+  z-index: 1; }
+
+/* line 500, E:/Front-End developer/drafts/Agency_email/css/style.scss */
+.price__dollar {
+  position: absolute;
+  top: 0;
+  left: 42%;
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: bold;
+  z-index: 2; }
+
+/*# sourceMappingURL=style.css.map */
